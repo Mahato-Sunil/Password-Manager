@@ -16,8 +16,9 @@ if ($result) {
     $userdata = [];
     foreach ($data as $row) {
         $userdata[] = [
-            'Id' => $row['Id'],
+            'Id' => $row['id'],
             'Name' => $row['Website_Name'],
+            'Username' => $row['Website_Username'],
             'Hash' => $row['Website_Password_Hash'],
             'Note' => $row['Website_Notes'],
         ];

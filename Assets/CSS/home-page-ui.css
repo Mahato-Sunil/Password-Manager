@@ -65,3 +65,14 @@ label {
 .button:hover {
     background-color: #45a049;
 }
+
+/* specific ui for the password vault  page  */
+.pwd-vault-ui {
+    background: #f8f8f8;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    height: 10%;
+    align-items: center;
+    left: 0;
+}

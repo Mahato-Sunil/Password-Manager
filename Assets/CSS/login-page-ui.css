@@ -66,6 +66,9 @@
     background-color: #3949ab;
 }
 
+.login-box form {
+    margin-bottom: 20px;
+}
 /* Responsive styles */
 @media (max-width: 600px) {
     .login-box {

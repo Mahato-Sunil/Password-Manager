@@ -1,3 +1,6 @@
+<!-- initialize the database  -->
+ <?php  include_once "./initialize.php"; ?>
+ 
 <!DOCTYPE html>
 <html lang="en">
 
